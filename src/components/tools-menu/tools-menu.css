@@ -1,0 +1,101 @@
+#tools-menu {
+    width: 200px;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#tools-menu ul {
+    height: 100%;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+#tools-menu ul li {
+    margin-bottom: 20px;
+}
+
+.tool-section-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.border-type-select {
+    border: 1px solid #999;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    padding-left: 5px;
+}
+.border-type-select:hover{
+    cursor: pointer;
+}
+.border-type-select i {
+    color: #666;
+}
+
+.border-width-input {
+    width: 40px;
+    border: 1px solid #999;
+    height: 25px;
+    border-radius: 0 4px 4px 0;
+    padding: 0 5px;
+}
+
+.color-selection {
+    width: 10px;
+    height: 10px;
+    background-color: #51acec;
+}
+
+.border-style-option {
+    padding: 10px;
+}
+.border-style-option:hover {
+    cursor: pointer;
+}
+
+.border-style-option-solid {
+    width: 60px;
+    height: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: #666;
+    border-bottom-style: solid;
+}
+.border-style-option-dashed {
+    width: 60px;
+    height: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: #666;
+    border-bottom-style: dashed;
+}
+.border-style-option-dotted {
+    width: 60px;
+    height: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: #666;
+    border-bottom-style: dotted;
+}
+
+.shape-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+}
+.shape-option:hover {
+    cursor: pointer;
+}
+
+.square-shape {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #666;
+}

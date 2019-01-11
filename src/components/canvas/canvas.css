@@ -1,0 +1,22 @@
+#canvas-container {
+    width: calc(100% - 200px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4e4;
+    min-height: 100%;
+    transition: all .4s;
+    top: 0;
+    left: 200px;
+    overflow: paged-y;
+}
+
+#canvas {
+    width: 960px;
+    height: 100vh;
+    position: relative;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    overflow: hidden;
+}

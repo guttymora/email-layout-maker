@@ -1,0 +1,87 @@
+.resizable .resizers {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #51acec;
+    display: none;
+}
+
+.resizer {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #51acec;
+}
+
+.resizers .top-resizer {
+    top: -5px;
+    left: calc(50% - 5px);
+}
+.resizers .top-resizer:hover {
+    cursor: n-resize;
+}
+
+.resizers .right-resizer {
+    right: -5px;
+    top: calc(50% - 5px);
+}
+.resizers .right-resizer:hover {
+    cursor: e-resize;
+}
+
+.resizers .bottom-resizer {
+    bottom: -5px;
+    left: calc(50% - 5px);
+}
+.resizers .bottom-resizer:hover {
+    cursor: s-resize;
+}
+
+.resizers .left-resizer {
+    left: -5px;
+    top: calc(50% - 5px);
+}
+.resizers .left-resizer:hover {
+    cursor: w-resize;
+}
+
+.draggable-region {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.draggable-region:hover {
+    cursor: all-scroll;
+}
+
+.text-input {
+    z-index: 1000;
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.inner-text {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    word-wrap: break-word;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.text-align-center {
+    text-align: center;
+}

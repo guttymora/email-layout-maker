@@ -1,0 +1,24 @@
+.color-option {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-option:hover {
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.micro {
+    width: 25%;
+    height: 6.66px;
+}
+
+.micro-grey {
+    background-color: #ccc;
+}
+.micro-white {
+    background-color: white;
+}
