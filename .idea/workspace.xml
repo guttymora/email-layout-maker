@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a1b740-70a3-4daa-9c27-ba9e086652ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/Canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/canvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/color-option/ColorOption.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/color-option/color-option.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/interactive-element/InteractiveElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/interactive-element/interactive-element.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/select/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/select/select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tools-menu/ToolsMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tools-menu/tools-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/globalStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -241,16 +222,15 @@
       <workItem from="1546447816882" duration="12065000" />
       <workItem from="1546523789059" duration="25420000" />
       <workItem from="1546609606258" duration="54310000" />
-      <workItem from="1547215992140" duration="19432000" />
+      <workItem from="1547215992140" duration="20058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112713000" />
+    <option name="totallyTimeSpent" value="113339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14963119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
