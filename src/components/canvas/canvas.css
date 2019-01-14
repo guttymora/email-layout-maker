@@ -2,7 +2,6 @@
     width: calc(100% - 200px);
     position: relative;
     display: flex;
-    justify-content: center;
     background-color: #e4e4e4;
     min-height: 100%;
     transition: all .4s;
@@ -14,6 +13,8 @@
 #canvas {
     width: 960px;
     height: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
     position: relative;
     margin: 20px 0;
     background-color: #fff;

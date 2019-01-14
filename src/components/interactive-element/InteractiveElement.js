@@ -13,6 +13,7 @@ function mapDispatchToProps(dispatch) {
 }
 
 const marginLeft = 200; // Represents the error to left of the canvas: 200px
+const marginTop = 20; // Represents the error to top of the canvas: 20px
 
 class ConnectedInteractiveElement extends Component {
     constructor(props) {
@@ -83,7 +84,7 @@ class ConnectedInteractiveElement extends Component {
 
                 this.mouseX =  e.pageX;
                 this.mouseY = e.pageY;
-                this.posX = this.interactive.current.getBoundingClientRect().left - marginLeft;
+                this.posX = this.interactive.current.getBoundingClientRect().left;
                 this.posY = this.interactive.current.getBoundingClientRect().top;
 
                 this.originalElementWidth = parseFloat(getComputedStyle(this.interactive.current, null)
@@ -120,7 +121,7 @@ class ConnectedInteractiveElement extends Component {
                     style: {
                         ...this.state.style,
                         height: `${height}px`,
-                        top: `${this.posY + (e.pageY - this.mouseY)}px`
+                        top: `${this.posY - marginTop + (e.pageY - this.mouseY)}px`
                     }
                 });
             }
@@ -135,13 +136,15 @@ class ConnectedInteractiveElement extends Component {
                 });
             }
         }else{ // left resizer
+            const canvasX = document.getElementById('canvas').getBoundingClientRect().left;
+            console.log('canvas x', canvasX);
             const width = this.originalElementWidth - (e.pageX - this.mouseX);
             if (width > this.mininumSize) {
                 this.setState({
                     style: {
                         ...this.state.style,
                         width: `${width}px`,
-                        left: `${this.posX + (e.pageX - this.mouseX)}px`
+                        left: `${this.posX - canvasX + (e.pageX - this.mouseX)}px`
                     }
                 });
             }
